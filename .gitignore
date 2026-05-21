@@ -1,0 +1,88 @@
+# OS files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python cache and tooling
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Virtual environments and local config
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+ENV/
+conda-meta/
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs and experiment trackers
+*.log
+logs/
+runs/
+wandb/
+tensorboard/
+events.out.tfevents.*
+
+# Local datasets
+SampleData/
+ColonDB/
+PROMISE12/
+data/
+datasets/
+
+# Training, prediction, and visualization outputs
+Results/
+Results_*/
+visualization_results/
+visualization_results_*/
+prediction_vis/
+outputs/
+output/
+predictions/
+checkpoints/
+checkpoint/
+
+# Model weights and large generated artifacts
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.mat
+*.nii
+*.nii.gz
+*.rar
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# External vendored source
+Model/sam2_source/
