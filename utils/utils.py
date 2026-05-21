@@ -112,7 +112,7 @@ def patients_to_slices(dataset, patiens_num):
     elif "MRI_Hippocampus_Seg" in dataset:
         ref_dict = {"10": 282, "30": 846, }
     elif "promise" in dataset:
-        ref_dict = {"5": 53, "10": 105, "30": 315}
+        ref_dict = {"5": 39, "10": 78, "30": 233}
     elif "ColonDB" in dataset:
         ref_dict = {"5": 19, "10": 38, "15": 57, "20": 76, "25": 95, "30": 114}
     else:
