@@ -96,7 +96,7 @@ class build_Dataset(Dataset):
             elif "BrainMRI" in self.split:
                 test_path = os.path.join(self.data_dir + "/TestDataset/image")
             elif "promise" in self.split:
-                test_path = os.path.join(self.data_dir + "/test/image")
+                test_path = os.path.join(self.data_dir + "/image")
             elif "MRI_Hippocampus" in self.split:
                 test_path = os.path.join(self.data_dir + "/TestDataset/image")
             else:
