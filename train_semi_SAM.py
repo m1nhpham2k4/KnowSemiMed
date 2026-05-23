@@ -42,7 +42,7 @@ parser.add_argument('--image_size', type=int, default=256, help='image_size')
 parser.add_argument('--point_nums', type=int, default=5, help='points number')
 parser.add_argument('--box_nums', type=int, default=1, help='boxes number')
 parser.add_argument('--mod', type=str, default='sam_adpt', help='mod type:seg,cls,val_ad')
-parser.add_argument("--model_type", type=str, default="sam2.1_hiera_large", help="sam model_type")
+parser.add_argument("--model_type", type=str, default="vit_b", help="sam model_type")
 parser.add_argument('-thd', type=bool, default=False, help='3d or not')
 parser.add_argument('--batch_size', type=int, default=24,
                     help='batch_size per gpu')
@@ -65,7 +65,7 @@ parser.add_argument('--consistency_rampup', type=float,
 parser.add_argument('--device', type=str, default='cuda')
 parser.add_argument("--multimask", type=bool, default=False, help="ouput multimask")
 parser.add_argument("--encoder_adapter", type=bool, default=True, help="use adapter")
-parser.add_argument("--sam_checkpoint", type=str, default="./sam2.1_hiera_large.pt", help="sam checkpoint")
+parser.add_argument("--sam_checkpoint", type=str, default="./sam_vit_b_01ec64.pth", help="sam checkpoint")
 
 args = parser.parse_args()
 
