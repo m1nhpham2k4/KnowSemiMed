@@ -90,6 +90,7 @@ To train the model on a dataset, execute:
 python train_semi_SAM.py --model_type "vit_b" --sam_checkpoint "sam_vit_b_01ec64.pth"
 ```
 With MedSAM checkpoint: --model_type "vit_b" --sam_checkpoint "medsam_vit_b.pth" 
+
 With SAM2 checkpoint: --model_type "sam2.1_hiera_large" --sam_checkpoint "sam2.1_hiera_large.pt" and execute:
 ```text
 Model/
