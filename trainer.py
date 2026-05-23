@@ -11,7 +11,6 @@ from utils.utils import dice_coef
 import numpy as np
 
 from Model.model import KnowSAM
-from prediction_ACDC import test_single_volume
 
 ce_loss = torch.nn.CrossEntropyLoss()
 

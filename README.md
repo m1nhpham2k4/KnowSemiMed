@@ -87,7 +87,7 @@ Lesions/
 ## Training
 To train the model on a dataset, execute:
 ```bash
-python train_semi_SAM.py
+python train_semi_SAM.py --model_type "vit_b" --sam_checkpoint "sam_vit_b_01ec64.pth"
 ```
 
 

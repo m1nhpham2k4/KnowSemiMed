@@ -149,7 +149,7 @@ if __name__ == '__main__':
         torch.manual_seed(2024)
         torch.cuda.manual_seed(2024)
 
-        snapshot_path = "./Results/ColonDB_10_SAM2"
+        snapshot_path = "./Results20/ColonDB_10_SAM2"
 
         if not os.path.exists(snapshot_path):
             os.makedirs(snapshot_path)
